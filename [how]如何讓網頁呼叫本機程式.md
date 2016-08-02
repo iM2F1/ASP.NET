@@ -38,3 +38,14 @@ Windows Registry Editor Version 5.00
 # 這裡會打開 shell 執行命令，"%1" 可以將URL本身傳為 EleOutputMap.exe 的外部參數
 ```
 傳入的網址可以當參數，有空格依然會視為同一個參數，最後會加上\
+
+
+執行的網頁
+```
+<html>
+<head></head>
+<body>
+  <a href="EleOutputMap:// 111 222 333 444 555 666 777 888">Gotcha!</a>
+</body>
+</html>
+```
